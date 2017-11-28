@@ -38,6 +38,7 @@
 		1AEF7C8B1FCD4C07002C8E06 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEF7C8A1FCD4C07002C8E06 /* 6.png */; };
 		1AEF7C8D1FCD4C2C002C8E06 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEF7C8C1FCD4C2B002C8E06 /* 3.png */; };
 		1AEF7C8F1FCD4C49002C8E06 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEF7C8E1FCD4C49002C8E06 /* 5.png */; };
+		1AEF7C901FCD503D002C8E06 /* TargetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF7C5E1FCD3007002C8E06 /* TargetManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -565,6 +566,7 @@
 			files = (
 				1AEF7C1D1FCD016C002C8E06 /* main.m in Sources */,
 				1AEF7C411FCD0696002C8E06 /* HomeViewController.m in Sources */,
+				1AEF7C901FCD503D002C8E06 /* TargetManager.m in Sources */,
 				1AEF7C451FCD098C002C8E06 /* Target2ViewController.m in Sources */,
 				1AEF7C421FCD0956002C8E06 /* AppDelegate.m in Sources */,
 			);
