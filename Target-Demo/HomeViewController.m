@@ -23,7 +23,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     ///共用控制器，不同的target执行不同的操作
-#if Target2
+#ifdef Target2
     NSLog(@"现在是target2..");
 #else
     NSLog(@"现在是target1..");
@@ -54,7 +54,7 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-#if Target1
+#ifdef Target1
     TargetViewController *vc = [TargetViewController new];
     [self.navigationController pushViewController:vc animated:YES];
 #else
