@@ -27,6 +27,7 @@
 		1AEF7C511FCD0FB4002C8E06 /* DebugConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1AEF7C501FCD0FB4002C8E06 /* DebugConfig.xcconfig */; };
 		1AEF7C531FCD0FD0002C8E06 /* ReleaseConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1AEF7C521FCD0FD0002C8E06 /* ReleaseConfig.xcconfig */; };
 		1AEF7C5C1FCD1455002C8E06 /* ReleaseTestConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1AEF7C5B1FCD1455002C8E06 /* ReleaseTestConfig.xcconfig */; };
+		1AEF7C5F1FCD3007002C8E06 /* TargetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF7C5E1FCD3007002C8E06 /* TargetManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +95,8 @@
 		1AEF7C501FCD0FB4002C8E06 /* DebugConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DebugConfig.xcconfig; sourceTree = "<group>"; };
 		1AEF7C521FCD0FD0002C8E06 /* ReleaseConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ReleaseConfig.xcconfig; sourceTree = "<group>"; };
 		1AEF7C5B1FCD1455002C8E06 /* ReleaseTestConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ReleaseTestConfig.xcconfig; sourceTree = "<group>"; };
+		1AEF7C5D1FCD3007002C8E06 /* TargetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TargetManager.h; sourceTree = "<group>"; };
+		1AEF7C5E1FCD3007002C8E06 /* TargetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TargetManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +180,8 @@
 				1AEF7BD91FCD00D1002C8E06 /* HomeViewController.m */,
 				1AEF7C461FCD099C002C8E06 /* TargetViewController.h */,
 				1AEF7C471FCD099C002C8E06 /* TargetViewController.m */,
+				1AEF7C5D1FCD3007002C8E06 /* TargetManager.h */,
+				1AEF7C5E1FCD3007002C8E06 /* TargetManager.m */,
 				1AEF7C501FCD0FB4002C8E06 /* DebugConfig.xcconfig */,
 				1AEF7C521FCD0FD0002C8E06 /* ReleaseConfig.xcconfig */,
 				1AEF7C5B1FCD1455002C8E06 /* ReleaseTestConfig.xcconfig */,
@@ -484,6 +489,7 @@
 			files = (
 				1AEF7BDA1FCD00D1002C8E06 /* HomeViewController.m in Sources */,
 				1AEF7BE51FCD00D1002C8E06 /* main.m in Sources */,
+				1AEF7C5F1FCD3007002C8E06 /* TargetManager.m in Sources */,
 				1AEF7BD71FCD00D1002C8E06 /* AppDelegate.m in Sources */,
 				1AEF7C481FCD099C002C8E06 /* TargetViewController.m in Sources */,
 			);

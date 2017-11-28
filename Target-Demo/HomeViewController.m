@@ -9,6 +9,7 @@
 #import "HomeViewController.h"
 #import "TargetViewController.h"
 #import "Target2ViewController.h"
+#import "TargetManager.h"
 
 @interface HomeViewController ()
 
@@ -20,12 +21,15 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    ///共用控制器，不同的target执行不同的操作
 #if Target2
     NSLog(@"现在是target2..");
 #else
     NSLog(@"现在是target1..");
 #endif
     
+    ///不同的环境变量执行不同的操作
 #if DEBUG
     NSLog(@"debug..");
 #elif RELEASE   
@@ -33,6 +37,19 @@
 #else
     NSLog(@"release test..");
 #endif
+    
+    ///写成单例使用起来更方便
+    
+    NSString *baseUrl = [TargetManager shareTarget].baseUrl;
+    if ([TargetManager shareTarget].target == XZDebug) {
+        NSLog(@"debug..%@",baseUrl);
+    }
+    else if ([TargetManager shareTarget].target == XZRelease) {
+        NSLog(@"release..%@",baseUrl);
+    }
+    else if ([TargetManager shareTarget].target == XZRelease_test) {
+        NSLog(@"release test..%@",baseUrl);
+    }
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
