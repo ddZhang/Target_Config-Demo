@@ -44,5 +44,10 @@ ps:target-new是上面的多个target，不需要的可忽略~~
 
 ![](https://github.com/ddZhang/Target_Config-Demo/blob/master/Target-Demo/images/8.png)
 
+5.在Info.plist文件中，设置Bundle name 为 $(APP_DISPLAY_NAME)，Project -> Build settings -> Apple LLVM 7.1 - Preprocessing
+在 preprocessor 中添加 ${CONFIG_FLAG}=1
+
+![](https://github.com/ddZhang/Target_Config-Demo/blob/master/Target-Demo/images/10.png)
+
 ## 到这里环境变量的配置就完成了，具体如何使用就要看项目的需求了，推荐大家使用单例来管理~~~~~~~~~
 ![](https://github.com/ddZhang/Target_Config-Demo/blob/master/Target-Demo/images/9.png)
