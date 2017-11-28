@@ -28,6 +28,7 @@
 		1AEF7C531FCD0FD0002C8E06 /* ReleaseConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1AEF7C521FCD0FD0002C8E06 /* ReleaseConfig.xcconfig */; };
 		1AEF7C5C1FCD1455002C8E06 /* ReleaseTestConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1AEF7C5B1FCD1455002C8E06 /* ReleaseTestConfig.xcconfig */; };
 		1AEF7C5F1FCD3007002C8E06 /* TargetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF7C5E1FCD3007002C8E06 /* TargetManager.m */; };
+		1AEF7C631FCD396E002C8E06 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AEF7C621FCD396E002C8E06 /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,7 @@
 		1AEF7C5B1FCD1455002C8E06 /* ReleaseTestConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ReleaseTestConfig.xcconfig; sourceTree = "<group>"; };
 		1AEF7C5D1FCD3007002C8E06 /* TargetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TargetManager.h; sourceTree = "<group>"; };
 		1AEF7C5E1FCD3007002C8E06 /* TargetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TargetManager.m; sourceTree = "<group>"; };
+		1AEF7C621FCD396E002C8E06 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 		1AEF7BD41FCD00D1002C8E06 /* Target-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				1AEF7C611FCD38FF002C8E06 /* images */,
 				1AEF7BD51FCD00D1002C8E06 /* AppDelegate.h */,
 				1AEF7BD61FCD00D1002C8E06 /* AppDelegate.m */,
 				1AEF7BD81FCD00D1002C8E06 /* HomeViewController.h */,
@@ -256,6 +259,14 @@
 				1AEF7C1C1FCD016C002C8E06 /* main.m */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		1AEF7C611FCD38FF002C8E06 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1AEF7C621FCD396E002C8E06 /* 1.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -437,6 +448,7 @@
 				1AEF7C531FCD0FD0002C8E06 /* ReleaseConfig.xcconfig in Resources */,
 				1AEF7BE21FCD00D1002C8E06 /* LaunchScreen.storyboard in Resources */,
 				1AEF7BDF1FCD00D1002C8E06 /* Assets.xcassets in Resources */,
+				1AEF7C631FCD396E002C8E06 /* 1.png in Resources */,
 				1AEF7C511FCD0FB4002C8E06 /* DebugConfig.xcconfig in Resources */,
 				1AEF7C5C1FCD1455002C8E06 /* ReleaseTestConfig.xcconfig in Resources */,
 			);
