@@ -1,15 +1,9 @@
 //
-//  ViewController.h
+//  ReleaseTestConfig.xcconfig
 //  Target-Demo
 //
 //  Created by yq on 2017/11/28.
 //  Copyright © 2017年 XZ. All rights reserved.
 //
-
-#import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
-
-@end
-
+APP_DISPLAY_NAME = 预发服
+CONFIG_FLAG = RELEASE_TEST

@@ -9,6 +9,29 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>Target-New.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1AEF7BD11FCD00D1002C8E06</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1AEF7BE91FCD00D2002C8E06</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1AEF7BF41FCD00D2002C8E06</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>
