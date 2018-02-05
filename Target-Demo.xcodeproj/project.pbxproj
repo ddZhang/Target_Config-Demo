@@ -734,7 +734,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				GCC_PREPROCESSOR_DEFINITIONS = Target2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					Target2,
+					"Release=1",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Target-New/Support/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1010,7 +1013,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				GCC_PREPROCESSOR_DEFINITIONS = Target2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					Target2,
+					"Debug=1",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Target-New/Support/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

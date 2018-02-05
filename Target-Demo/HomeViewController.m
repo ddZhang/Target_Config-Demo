@@ -30,12 +30,20 @@
 #endif
     
     ///不同的环境变量执行不同的操作
+    
+#if Target1
 #if DEBUG
     NSLog(@"debug..");
-#elif RELEASE   
+#elif RELEASE
     NSLog(@"release..");
 #else
     NSLog(@"release test..");
+#endif
+#endif
+
+    
+#if Debug
+    NSLog(@"Debug..");
 #endif
     
     ///写成单例使用起来更方便
